@@ -65,7 +65,7 @@ CLOSE(11)
 WRITE(12,'((I4),",",(F8.6),",",(F5.3),",",(F6.1),",",(F5.3))') k,random_number
 
 ! execute shell script that replaces old parameters with new parameter set within SPA input file and then executes SPA
-CALL system('./read_Vallcebre.sh')
+CALL system('./run_SPA_MC.sh')
 
 ENDDO
 
